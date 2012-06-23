@@ -15,7 +15,7 @@
 ## along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
-CXX		=	gcc
+CXX		=	g++
 NAME		=	test_upas
 
 SRCS		=	main.cpp			\
