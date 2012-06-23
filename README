@@ -1,0 +1,12 @@
+name	: upas (Using PortAudio and Speex)
+author	: Younes Serraj
+license	: GPL2
+
+This is a sample code showing how to :
+- use PortAudio
+- use Speex
+- combine the two of them
+
+I wrote this for a VoIP school project. This soure code could be optimized,
+or maybe thought in a more fancy way, but remember that it is made for
+learning purposes only.
