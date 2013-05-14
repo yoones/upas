@@ -23,10 +23,12 @@
 
 #define NBR_SECONDS	3
 
-#ifdef WIN32
-# include <Windows.hh>
-# define usleep(t) Sleep(t)
-#endif // WIN32
+#ifdef __unix__
+# include <unistd.h>
+#elif defined _WIN32
+# include <windows.h>
+#define sleep(x) Sleep(1000 * x)
+#endif
 
 int main()
 {
